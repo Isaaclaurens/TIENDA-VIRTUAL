@@ -254,97 +254,66 @@
    Datos cursos (15 completos)
    ========================== */
 const cursosData = [
-  { id:1, nombre:"HTML, CSS y JavaScript", precio:200000, cat:"Programación",
+  { id:1,  nombre:"HTML,CSS,JavaScript", precio:200.000, cat:"Programación",
     desc:"Aprende a crear páginas web modernas desde cero.", duracion:"6 horas", lecciones:24, students:1245, rating:4.8,
-    temario:["HTML básico","CSS responsive","Flexbox y Grid","JS interactividad","Proyecto final"], popular:true,
-    img:"https://picsum.photos/seed/html/800/600"
-  },
+    temario:["HTML básico","CSS responsive","Flexbox y Grid","JS interactividad","Proyecto final"] , popular:true },
 
-  { id:2, nombre:"Cocina Vegetariana", precio:120000, cat:"Cocina",
+  { id:2,  nombre:"Cocina Vegetariana", precio:120.000, cat:"Cocina",
     desc:"Recetas saludables, rápidas y sabrosas sin carne.", duracion:"4 horas", lecciones:18, students:987, rating:4.7,
-    temario:["Ingredientes base","Desayunos","Platos principales","Postres vegetales"],
-    img:"https://picsum.photos/seed/vegetariano/800/600"
-  },
+    temario:["Ingredientes base","Desayunos","Platos principales","Postres vegetales"] },
 
-  { id:3, nombre:"Guitarra para Principiantes", precio:140000, cat:"Música",
+  { id:3,  nombre:"Guitarra Principiantes", precio:140.000, cat:"Música",
     desc:"Tus primeros acordes y canciones para tocar ya.", duracion:"5 horas", lecciones:20, students:652, rating:4.6,
-    temario:["Agarre y postura","Acordes abiertos","Patrones rítmicos","Canciones fáciles"],
-    img:"https://picsum.photos/seed/guitarra/800/600"
-  },
+    temario:["Agarre y postura","Acordes abiertos","Patrones rítmicos","Canciones fáciles"] },
 
-  { id:4, nombre:"Marketing Digital Completo", precio:230000, cat:"Marketing",
+  { id:4,  nombre:"Marketing Digital Completo", precio:230.000, cat:"Marketing",
     desc:"Estrategias para crecer en redes y convertir clientes.", duracion:"10 horas", lecciones:40, students:2010, rating:4.9,
-    temario:["Ads","Funnel","Email marketing","Analytics"], popular:true,
-    img:"https://picsum.photos/seed/marketing/800/600"
-  },
+    temario:["Ads","Funnel","Email marketing","Analytics"], popular:true },
 
-  { id:5, nombre:"Diseño con Canva Pro", precio:70000, cat:"Diseño",
+  { id:5,  nombre:"Diseño con Canva Pro", precio:70.000, cat:"Diseño",
     desc:"Diseña piezas profesionales sin ser diseñador.", duracion:"3 horas", lecciones:12, students:860, rating:4.5,
-    temario:["Interfaz de Canva","Plantillas","Branding","Exportar para web"],
-    img:"https://picsum.photos/seed/diseno/800/600"
-  },
+    temario:["Interfaz de Canva","Plantillas","Branding","Exportar para web"] },
 
-  { id:6, nombre:"Ciberseguridad desde Cero", precio:250000, cat:"Tecnología",
+  { id:6,  nombre:"Ciberseguridad desde Cero", precio:250.000, cat:"Tecnología",
     desc:"Conceptos y prácticas para protegerte online.", duracion:"8 horas", lecciones:28, students:1120, rating:4.8,
-    temario:["Seguridad básica","Redes","Pentesting básico","Buenas prácticas"],
-    img:"https://picsum.photos/seed/ciberseguridad/800/600"
-  },
+    temario:["Seguridad básica","Redes","Pentesting básico","Buenas prácticas"] },
 
-  { id:7, nombre:"Fotografía Profesional", precio:180000, cat:"Fotografía",
+  { id:7,  nombre:"Fotografía Profesional", precio:180.000, cat:"Fotografía",
     desc:"Composición, luz y edición para fotos pro.", duracion:"7 horas", lecciones:26, students:905, rating:4.7,
-    temario:["Cámara y objetivos","Composición","Luz natural y artificial","Edición básica"],
-    img:"https://picsum.photos/seed/fotografia/800/600"
-  },
+    temario:["Cámara y objetivos","Composición","Luz natural y artificial","Edición básica"] },
 
-  { id:8, nombre:"Excel Profesional", precio:60000, cat:"Ofimática",
+  { id:8,  nombre:"Excel Profesional", precio:60.000, cat:"Ofimática",
     desc:"Tablas dinámicas, fórmulas y automatización con macros.", duracion:"6 horas", lecciones:30, students:1740, rating:4.9,
-    temario:["Funciones","Tablas dinámicas","VLOOKUP/XLOOKUP","Macros"], popular:true,
-    img:"https://picsum.photos/seed/excel/800/600"
-  },
+    temario:["Funciones","Tablas dinámicas","VLOOKUP/XLOOKUP","Macros"] , popular:true },
 
-  { id:9, nombre:"Python para Principiantes", precio:180000, cat:"Programación",
+  { id:9,  nombre:"Python para Principiantes", precio:180.000, cat:"Programación",
     desc:"Programa desde cero con ejemplos prácticos.", duracion:"9 horas", lecciones:32, students:1420, rating:4.8,
-    temario:["Sintaxis","Estructuras de datos","Funciones","Proyectos"],
-    img:"https://picsum.photos/seed/python/800/600"
-  },
+    temario:["Sintaxis","Estructuras de datos","Funciones","Proyectos"] },
 
-  { id:10, nombre:"Diseño Web con Bootstrap", precio:100000, cat:"Programación",
+  { id:10, nombre:"Diseño Web con Bootstrap", precio:100.000, cat:"Programación",
     desc:"Crea sitios responsivos y profesionales rápido.", duracion:"5 horas", lecciones:22, students:430, rating:4.4,
-    temario:["Grid y utilidades","Componentes","Layouts","Proyecto final"],
-    img:"https://picsum.photos/seed/bootstrap/800/600"
-  },
+    temario:["Grid y utilidades","Componentes","Layouts","Proyecto final"] },
 
-  { id:11, nombre:"Edición en CapCut Avanzado", precio:70000, cat:"Edición",
+  { id:11, nombre:"Edición en CapCut Avanzado", precio:70.000, cat:"Edición",
     desc:"Efectos, transiciones y técnicas para redes sociales.", duracion:"4 horas", lecciones:16, students:980, rating:4.6,
-    temario:["Interfaz","Efectos","Transiciones","Exportar para plataformas"],
-    img:"https://picsum.photos/seed/capcut/800/600"
-  },
+    temario:["Interfaz","Efectos","Transiciones","Exportar para plataformas"] },
 
-  { id:12, nombre:"Ventas y Persuasión", precio:190000, cat:"Negocios",
+  { id:12, nombre:"Ventas y Persuasión", precio:190.000, cat:"Negocios",
     desc:"Técnicas para influir y cerrar ventas con ética.", duracion:"6 horas", lecciones:20, students:650, rating:4.5,
-    temario:["Psicología","Scripts","Cierre","Seguimiento"],
-    img:"https://picsum.photos/seed/ventas/800/600"
-  },
+    temario:["Psicología","Scripts","Cierre","Seguimiento"] },
 
-  { id:13, nombre:"Machine Learning Básico", precio:160000, cat:"IA",
+  { id:13, nombre:"Machine Learning Básico", precio:160.000, cat:"IA",
     desc:"Modelos, principios y proyectos introductorios.", duracion:"12 horas", lecciones:36, students:520, rating:4.3,
-    temario:["Estadística básica","Modelos supervisados","Evaluación"],
-    img:"https://picsum.photos/seed/ml/800/600"
-  },
+    temario:["Estadística básica","Modelos supervisados","Evaluación"] },
 
-  { id:14, nombre:"React desde Cero", precio:220000, cat:"Programación",
+  { id:14, nombre:"React desde Cero", precio:220.000, cat:"Programación",
     desc:"Construye interfaces modernas con React paso a paso.", duracion:"10 horas", lecciones:34, students:980, rating:4.7,
-    temario:["Componentes","State & Props","Hooks","Routing"],
-    img:"https://picsum.photos/seed/react/800/600"
-  },
+    temario:["Componentes","State & Props","Hooks","Routing"] },
 
-  { id:15, nombre:"UI/UX Profesional", precio:190000, cat:"Diseño",
+  { id:15, nombre:"UI/UX Profesional", precio:190.000, cat:"Diseño",
     desc:"Diseño de producto, prototipado y tests de usabilidad.", duracion:"11 horas", lecciones:38, students:740, rating:4.8,
-    temario:["Research","Wireframes","Prototipos","Pruebas de usuario"], popular:true,
-    img:"https://picsum.photos/seed/uiux/800/600"
-  }
+    temario:["Research","Wireframes","Prototipos","Pruebas de usuario"], popular:true }
 ];
-
 
 /* ===========================
    Render, filtros y helpers
